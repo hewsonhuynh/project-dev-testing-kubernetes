@@ -1,0 +1,3 @@
+database-secret.yaml
+backend/config/keys.js
+frontend/.htpasswd
