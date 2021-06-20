@@ -5,7 +5,6 @@ metadata:
    labels:
      app: backend-service
 spec:
-   type: LoadBalancer
    selector:
      app: backend
    ports:

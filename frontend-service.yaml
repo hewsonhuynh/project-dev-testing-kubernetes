@@ -4,6 +4,8 @@ metadata:
   name: frontend-service
   labels:
     app: frontend-service
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: sca.hewson.io 
 spec:
   type: LoadBalancer
   selector:
