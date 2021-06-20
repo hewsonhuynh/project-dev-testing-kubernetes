@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend-deployment
 spec:
-  replicas: 1
+  replicas: 1 
   selector:
     matchLabels:
       app: frontend
@@ -19,4 +19,4 @@ spec:
         - name: frontend-container
           image: public.ecr.aws/z2b5z3a0/hewson-frontend:latest
           ports:
-            - containerPort: 80 
+            - containerPort: 443 
